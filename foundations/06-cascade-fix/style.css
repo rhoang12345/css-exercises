@@ -3,15 +3,15 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
-  font-size: 14px;
-}
-
 .para {
   font-size: 22px;
 }
 
-.confirm {
+.small-para {
+  font-size: 14px;
+}
+
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -23,7 +23,10 @@
   font-size: 20px;
 }
 
-.child {
+/*
+i did .text.child to directly target the element and it will override the inheritance from the element nesting within the element with "text" class
+*/
+.text.child {
   color: red;
   font-size: 14px;
 }
